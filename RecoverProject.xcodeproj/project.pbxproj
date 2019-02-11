@@ -13,6 +13,10 @@
 		BDD12319221171C80024BE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD12318221171C80024BE04 /* Assets.xcassets */; };
 		BDD1231C221171C80024BE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1231A221171C80024BE04 /* LaunchScreen.storyboard */; };
 		BDD1231F221171C80024BE04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD1231E221171C80024BE04 /* main.m */; };
+		BDD12329221172030024BE04 /* mainfest.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD12325221172000024BE04 /* mainfest.plist */; };
+		BDD1232A221172030024BE04 /* recover.ipa in Resources */ = {isa = PBXBuildFile; fileRef = BDD12326221172030024BE04 /* recover.ipa */; };
+		BDD1232B221172030024BE04 /* icon512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD12327221172030024BE04 /* icon512x512.png */; };
+		BDD1232C221172030024BE04 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD12328221172030024BE04 /* icon57x57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BDD1231B221171C80024BE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD1231D221171C80024BE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD1231E221171C80024BE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDD12325221172000024BE04 /* mainfest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mainfest.plist; sourceTree = "<group>"; };
+		BDD12326221172030024BE04 /* recover.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = recover.ipa; sourceTree = "<group>"; };
+		BDD12327221172030024BE04 /* icon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon512x512.png; sourceTree = "<group>"; };
+		BDD12328221172030024BE04 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		BDD1230E221171C50024BE04 /* RecoverProject */ = {
 			isa = PBXGroup;
 			children = (
+				BDD12328221172030024BE04 /* icon57x57.png */,
+				BDD12327221172030024BE04 /* icon512x512.png */,
+				BDD12325221172000024BE04 /* mainfest.plist */,
+				BDD12326221172030024BE04 /* recover.ipa */,
 				BDD1230F221171C50024BE04 /* AppDelegate.h */,
 				BDD12310221171C60024BE04 /* AppDelegate.m */,
 				BDD12312221171C60024BE04 /* ViewController.h */,
@@ -129,8 +141,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD1231C221171C80024BE04 /* LaunchScreen.storyboard in Resources */,
+				BDD1232B221172030024BE04 /* icon512x512.png in Resources */,
 				BDD12319221171C80024BE04 /* Assets.xcassets in Resources */,
+				BDD1232A221172030024BE04 /* recover.ipa in Resources */,
+				BDD1232C221172030024BE04 /* icon57x57.png in Resources */,
 				BDD12317221171C60024BE04 /* Main.storyboard in Resources */,
+				BDD12329221172030024BE04 /* mainfest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
